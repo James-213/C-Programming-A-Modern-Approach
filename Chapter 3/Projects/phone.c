@@ -5,3 +5,17 @@
    You entered 404.817.6900
 
 */
+
+#include <stdio.h>
+
+int main(void)
+{
+
+   int area, firstThree, lastFour;
+   printf("Enter phoone number [(xxx) xxx-xxxx]: ");
+   scanf("(%3d) %3d-%4d", &area, &firstThree, &lastFour);
+
+   printf("You entered %3d.%3d.%4d", area, firstThree, lastFour);
+
+   return 0;
+}
