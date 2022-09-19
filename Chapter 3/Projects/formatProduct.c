@@ -32,6 +32,7 @@ int main(void)
 
     printf("\n\tItem\t\tUnit\t\tPurchase\n");
     printf("\t\t\tPrice\t\tDate\n");
+    printf("\t%-8d\t$%8.2f\t%2d/%2d/%4d", itemNum, unitPrice, mm, dd, yyyy);
 
 
     return 0;
